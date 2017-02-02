@@ -34,6 +34,7 @@
         _.menuIconTitle =@[@"标题1",@"标题2",@"标题3",@"标题4",@"标题5",@"标题6",@"标题7",@"标题8"];
         _.YZSquareMenuDelegate=self;
         
+        [self.view addSubview:_];
         /* 点击回调*/
         [_ selectedItem:^(NSInteger index) {
             
